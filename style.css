@@ -1,0 +1,193 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0%;
+    background-color: rgb(139, 134, 134);
+}
+
+form {
+    margin: auto;
+    background-color: rgb(137, 139, 111);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(180, 28, 28, 0.5);
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid rgb(22, 21, 22);
+    border-radius: 10px;
+    max-width: 50%;
+    color: rgb(22, 21, 22);
+    background-color: rgb(236, 152, 152);
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+fieldset {
+    max-width: 80%;
+    border: 2px solid rgb(13, 13, 14);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(243, 226, 200);
+    border-color: rgb(230, 56, 56);
+}
+
+legend {
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 10px;
+    color: rgb(228, 221, 121);
+    background-color: rgb(88, 138, 138);
+}
+
+input, textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid rgb(230, 56, 56);
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+/* #Shareablr-link-container{
+    max-width: 800px;
+    margin: 40 auto;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    border: 3px solid rgb(180, 70, 70);
+    color: rgb(192, 143, 84) ;
+
+} */
+
+button:Generate Resume {
+    display: block;
+    width: 200%;
+    border: 2px solid rgb(22, 21, 22);
+    border-radius: 25px;
+    background-color: rgb(173, 209, 27);
+    color: black;
+    box-shadow: 0 4px 8px rgba(216, 70, 70, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+ button:downloadpdf{
+    display: block;
+    width: 50%;
+    border: 2px solid rgb(22, 21, 22);
+    border-radius: 10px;
+    background-color: rgb(250, 246, 246);
+    color: black;
+    box-shadow: 0 4px 8px rgba(83, 218, 65, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+} 
+
+button:hover {
+    color: rgb(90, 72, 107);
+    box-shadow: 5px 5px 15px chocolate ;
+}
+/* a{
+    color: rgb(20, 20, 20);
+}
+a:hover{
+    color: aquamarine;
+} */
+#resume-display {
+    max-width: 600px;
+    border-radius: 5%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(19, 18, 18);
+    background-color: rgb(102, 128, 102);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resume-display h2 {
+    color: rgb(24, 14, 14);
+}
+
+.forpic {
+    color: rgb(192, 143, 84);
+    max-width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(247, 210, 196);
+    color: rgb(165, 164, 156);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#upload {
+    cursor: pointer;
+    color: rgb(236, 152, 152);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#upload:hover {
+    color: rgb(180, 70, 70);
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    font-size: 16px;
+    padding: 12px;
+}
+
+.resume {
+    font-size: large;
+    color: rgb(168, 166, 49);
+    padding: 10px;
+    width: 300px;
+    border: 1px solid rgb(230, 56, 56);
+    border-radius: 10px;
+    background-color: rgb(243, 226, 200);
+    text-align: justify;
+}
+
+
+#Shareable-link-container {
+    max-width: 100%;
+    color: rgb(168, 166, 49);
+    padding: 20px;
+    width: 1000px;
+    border: 1px solid rgb(230, 56, 56);
+    border-radius: 10px;
+    background-color: rgb(243, 226, 200);
+    text-align: center;
+    margin: 0 auto;  /* Center horizontally */
+}
+
+
+input[type="file"] {
+    padding: 0;
+}
+
+input[type="submit"] {
+    font-size: 16px;
+    padding: 10px;
+    background-color: rgb(238, 147, 28);
+    border-radius: 30px;
+    margin: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(225, 125, 28);
+}
